@@ -1,10 +1,10 @@
 {
-  "name": "MYPLUGINNAME",
-  "version": "1.0.0",
+  "name": "NoGoZone",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rollup ./src/index.js --file ./build/MYPLUGINNAME.js && babel ./build/MYPLUGINNAME.js --out-file ./build/MYPLUGINNAME.js && cpy ./build/MYPLUGINNAME.js OPENRCT2PATH/plugin/ --rename=MYPLUGINNAME.js",
+    "build": "rollup ./src/index.js --file ./build/NoGoZone.js && babel ./build/NoGoZone.js --out-file ./build/NoGoZone.js && cpy ./build/NoGoZone.js \"C:\\Users\\ghartemann\\OneDrive - Valority\\Documents\\OpenRCT2/plugin/\" --rename=NoGoZone.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npm-watch"
   },
